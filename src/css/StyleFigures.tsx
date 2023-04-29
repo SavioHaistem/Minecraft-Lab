@@ -6,7 +6,6 @@ img {
   z-index: -1;
 }
 `
-
 const StyledIsle: any = styled.div`
   img {
       margin: 2vh 4vw;

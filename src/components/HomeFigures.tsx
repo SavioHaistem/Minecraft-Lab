@@ -7,7 +7,7 @@ function HomeFigures() {
   <>
   <StyledFigures>
     <StyledIsle>
-      <img src={IslandFigure} alt="Minecraft-island" />
+      <img src={IslandFigure} alt="Minecraft island" />
     </StyledIsle>
     <StyledPlayers>
       <img src={PlayersFigure} alt="Steeve and Alex" />
