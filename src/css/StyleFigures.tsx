@@ -9,14 +9,20 @@ img {
 const StyledIsle: any = styled.div`
   img {
       margin: 2vh 4vw;
-      max-width: 35vw;
+      max-width: 30vw;
   }
 `
 const StyledPlayers: any = styled.div`
   img {
     right: 0;
-    margin: 3vh 5vw 0vh 0vw;
-    max-width: 25vw;
+    margin: 3vh 5vw;
+    max-width: 30vw;
+  }
+  @media screen and (max-width: 1043px) {
+    img {
+      bottom: 0;
+      max-width: 40vw;
+    }
   }
 `
 
