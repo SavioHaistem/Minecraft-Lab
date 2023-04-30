@@ -6,7 +6,7 @@ function Home() {
   <>
     <StyledHome>
       <HomeFigures/>
-        <h1> minecraft lab </h1>
+        <h1 className="miencraftGradient"> MINECRAFT LAB </h1>
     </StyledHome>
   </>
   );
