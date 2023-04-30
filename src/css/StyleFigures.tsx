@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const StyledFigures: any = styled.div`
-img {
   position: absolute;
   z-index: -1;
-}
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
 `
 const StyledIsle: any = styled.div`
   img {
