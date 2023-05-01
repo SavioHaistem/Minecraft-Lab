@@ -7,7 +7,7 @@ const GlobalStyle: any = createGlobalStyle`
     overflow: hidden;
   }
   body {
-    background: linear-gradient(to top right  , #0059ff, #00a1ec);
+    background: linear-gradient(to top right  , #00369a, #00aeff);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;

@@ -1,9 +1,0 @@
-import styled from "styled-components";
-
-const StyledUserForm: any = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`
-export default StyledUserForm;

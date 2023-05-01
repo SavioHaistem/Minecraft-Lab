@@ -11,7 +11,7 @@ const StyledHome = styled.div`
     text-align: center;
     color: #ececec;
     font-size: 40px;
-    text-shadow: 2px 2px #242424;
+    text-shadow: 2px 2px 3px #242424;
   }
 `
 

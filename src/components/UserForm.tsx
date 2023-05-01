@@ -4,8 +4,9 @@ function UserForm() {
   return ( 
   <>
     <StyledUserForm>
-        <input type="text" name="email"/>
-        <input type="text" name="senha"/>
+        <input type="email" name="email"/>
+        <input type="text" name="password"/>
+        <button> Login </button>
     </StyledUserForm>
   </>
 );
