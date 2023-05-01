@@ -2,11 +2,18 @@ import styled from "styled-components";
 
 const StyledUserForm: any = styled.div`
   display: flex;
+  position: absolute;
+  right: 0;
+  margin: 40vh 20vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  max-width: fit-content;
 
+  * {
+    transition: 0.3s;
+  }
   input {
     color: #414141ce;
     background-color: #d2d2d2a6;

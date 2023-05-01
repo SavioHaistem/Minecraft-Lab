@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 const StyledFigures: any = styled.div`
   position: absolute;
+  width: 90vw;
   z-index: -1;
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
+  top: 0;
 `
 const StyledIsle: any = styled.div`
   img {
@@ -15,13 +14,11 @@ const StyledIsle: any = styled.div`
 `
 const StyledPlayers: any = styled.div`
   img {
-    right: 0;
     margin: 3vh 5vw;
     max-width: 30vw;
   }
   @media screen and (max-width: 1043px) {
     img {
-      bottom: 0;
       max-width: 40vw;
     }
   }
